@@ -14,6 +14,9 @@ elseif ($age >=25 && $age <= 64){
 elseif ($age >= 65){
     echo "Yaşlı";
 }
+else{
+    echo "Yaş değeri 0'dan küçük olamaz";
+}
 
 /**
  * Bu ödevde age değişkeni içerisinde yer alan yaş değerinin bulunduğu
